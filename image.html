@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="D:\WEB DEVELOPMENT\image.css" />
+</head>
+<body style="background-color: lightgreen;">
+  <header>
+    <h1>Image Gallery</h1>
+    <nav>
+      <button onclick="filterImages('all')">All</button>
+      <button onclick="filterImages('nature')">Nature</button>
+      <button onclick="filterImages('architecture')">Architecture</button>
+      <button onclick="filterImages('people')">People</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <div class="image-card" data-category="nature">
+        <img src="D:\WEB DEVELOPMENT\forest.jpg" alt="Nature Forest"/>
+      </div>
+      <div class="image-card" data-category="architecture">
+        <img src="D:\WEB DEVELOPMENT\building.jpg" alt="Building"/>
+      </div>
+      <div class="image-card" data-category="people">
+        <img src="D:\WEB DEVELOPMENT\person.jpg" alt="Person"/>
+      </div>
+      <div class="image-card" data-category="nature">
+        <img src= "D:\WEB DEVELOPMENT\mountain.jpg"alt="Mountain"/>
+      </div>
+      <div class="image-card" data-category="architecture">
+        <img src="D:\WEB DEVELOPMENT\bridge.jpg"alt="Bridge"/>
+      </div>
+      <div class="image-card" data-category="people">
+        <img src="D:\WEB DEVELOPMENT\portrait.jpg" alt="Portrait"/>
+      </div>
+    </section>
+  </main>
+
+  <script src="D:\WEB DEVELOPMENT\image.js"></script>
+</body>
+</html>
